@@ -3,8 +3,8 @@ body{
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    background: radial-gradient(circle, black, white);
-    color: red;
+    background: gray;
+    color: white;
         }
 
         .container{
@@ -33,11 +33,11 @@ body{
         .botao{
             width: 200px;
             padding: 15px;
-            margin: 10px;
+            margin: 0px;
             border:none;
             border-radius: 10px;
-            background: gray;
-            color: red;
+            background: darkblue;
+            color: white;
             cursor: pointer;
             font-size: 18px
         }
