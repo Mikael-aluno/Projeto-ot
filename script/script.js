@@ -9,3 +9,7 @@ botoes.forEach(botao => {botao.addEventListener("click", () => {let conteudo = b
     else{conteudo.style.display = "block";}
 });
 });
+
+function tocar(){
+    document.getElementById("musica").play();
+}
